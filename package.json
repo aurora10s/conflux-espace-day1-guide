@@ -1,0 +1,19 @@
+{
+  "name": "conflux-espace-day1-guide",
+  "version": "1.0.0",
+  "description": "Day 1 developer onboarding guide for deploying and verifying a contract on Conflux eSpace.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network eSpaceTestnet",
+    "read:testnet": "hardhat run scripts/read.ts --network eSpaceTestnet",
+    "update:testnet": "hardhat run scripts/update.ts --network eSpaceTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.0",
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2"
+  }
+}
