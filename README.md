@@ -322,19 +322,3 @@ npx hardhat verify --network eSpaceTestnet <CONTRACT_ADDRESS> "Hello Conflux eSp
 
 ---
 
-## X Submission Template
-
-```text
-I built a Day 1 onboarding guide for Ethereum developers moving to Conflux eSpace.
-
-It covers:
-- RPC setup
-- Faucet usage
-- eSpace vs Core Space pitfalls
-- Deploy + verify flow
-- Cloneable Hardhat sample repo
-
-Repo: <YOUR_GITHUB_REPO_LINK>
-
-#Conflux #eSpace #Web3Dev
-```
